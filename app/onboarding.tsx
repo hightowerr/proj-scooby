@@ -2,6 +2,7 @@ import { Link, Stack } from "expo-router";
 import Pressable from "react-native-css/components/Pressable";
 import Text from "react-native-css/components/Text";
 import View from "react-native-css/components/View";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const steps = [
   {
@@ -26,7 +27,8 @@ const steps = [
 
 export default function Onboarding() {
   return (
-    <View className="flex-1 bg-background">
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#fff9e3" }}>
+      <View className="flex-1 bg-background">
       <Stack.Screen options={{ title: "Onboarding" }} />
       <View className="flex-1 px-6 pb-8 pt-6">
         <View className="rounded-[36px] bg-primary px-6 py-8">
@@ -75,6 +77,7 @@ export default function Onboarding() {
           </Text>
         </View>
       </View>
-    </View>
+      </View>
+    </SafeAreaView>
   );
 }

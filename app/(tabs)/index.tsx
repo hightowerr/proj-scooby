@@ -2,10 +2,12 @@ import { Link } from "expo-router";
 import Pressable from "react-native-css/components/Pressable";
 import Text from "react-native-css/components/Text";
 import View from "react-native-css/components/View";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function TabsHomeScreen() {
   return (
-    <View className="flex-1 items-center justify-center bg-background px-6">
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#fff9e3" }}>
+      <View className="flex-1 items-center justify-center bg-background px-6">
       <View className="w-full max-w-sm rounded-[32px] border border-border bg-card p-6 shadow-sm">
         <Text className="text-center text-3xl font-sans-bold text-primary">
           Scooby
@@ -38,6 +40,7 @@ export default function TabsHomeScreen() {
           </Link>
         </View>
       </View>
-    </View>
+      </View>
+    </SafeAreaView>
   );
 }
