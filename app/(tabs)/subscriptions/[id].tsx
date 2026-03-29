@@ -15,7 +15,7 @@ export default function SubscriptionDetailsScreen() {
         <Text className="text-2xl font-sans-bold text-primary">
           Subscription details
         </Text>
-        <Text className="mt-3 text-base leading-6 text-muted-foreground">
+        <Text className="mt-3 text-base font-sans leading-6 text-muted-foreground">
           Dynamic route placeholder for subscription id: {id ?? "unknown"}
         </Text>
         <Link href="/(tabs)" asChild>

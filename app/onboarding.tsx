@@ -38,7 +38,7 @@ export default function Onboarding() {
           <Text className="mt-4 text-4xl font-sans-extrabold leading-tight text-background">
             Clean up your subscriptions before they clean out your budget.
           </Text>
-          <Text className="mt-4 text-base leading-7 text-white/75">
+          <Text className="mt-4 text-base font-sans leading-7 text-white/75">
             Start with a quick walkthrough, then head back to the home screen
             when you want to continue building the app.
           </Text>
@@ -56,7 +56,7 @@ export default function Onboarding() {
               <Text className="mt-3 text-xl font-sans-bold leading-7 text-primary">
                 {step.title}
               </Text>
-              <Text className="mt-2 text-sm leading-6 text-muted-foreground">
+              <Text className="mt-2 text-sm font-sans leading-6 text-muted-foreground">
                 {step.description}
               </Text>
             </View>
@@ -71,7 +71,7 @@ export default function Onboarding() {
               </Text>
             </Pressable>
           </Link>
-          <Text className="text-center text-sm text-muted-foreground">
+          <Text className="text-center text-sm font-sans text-muted-foreground">
             This screen is a standalone route inside `app/` and can be expanded
             into a full first-run flow later.
           </Text>
