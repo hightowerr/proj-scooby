@@ -10,7 +10,7 @@ export default function SignInScreen() {
       <Stack.Screen options={{ title: "Sign in" }} />
       <View className="w-full max-w-sm rounded-[32px] border border-border bg-card p-6">
         <Text className="text-2xl font-sans-bold text-primary">Sign in</Text>
-        <Text className="mt-3 text-base leading-6 text-muted-foreground">
+        <Text className="mt-3 text-base font-sans leading-6 text-muted-foreground">
           Placeholder sign-in screen.
         </Text>
       </View>

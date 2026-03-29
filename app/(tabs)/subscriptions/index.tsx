@@ -14,7 +14,7 @@ export default function SubscriptionsScreen() {
         <Text className="text-2xl font-sans-bold text-primary">
           Subscriptions
         </Text>
-        <Text className="mt-3 text-base leading-6 text-muted-foreground">
+        <Text className="mt-3 text-base font-sans leading-6 text-muted-foreground">
           Placeholder subscriptions tab with sample links into the dynamic
           detail route.
         </Text>
